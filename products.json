@@ -1,0 +1,52 @@
+
+	{
+		"id": "PROD-1",
+		"name": "BeachWood Hoodie",
+		"description": "A super comfortable hoodie is a summertime essential. Made from 100% ultra-soft cotton, our Beachwood Hoodie is the layer you'll want to wear for early morning dog walks and beach bonfires by the ocean",
+		"rating": 5,
+		"image": "prod-img-1.jpg",
+		"price": { "amount": "128.00", "currency": "₵" },
+		"sizes": ["XS","X","M","L","XL","XXL"],
+		"colors": [
+			{
+				"text": "Bright Peach",
+                "imgloc0": "imgs/bright_peach0.jpg",
+                "imgloc1": "imgs/bright_peach1.jpg",
+                "imgloc2":"imgs/bright_peach2.jpg"
+			},
+			{
+				"text": "Hull Blue",
+                "imgloc0": "imgs/hull_blue0.jpg",
+                "imgloc1": "imgs/hull_blue1.jpg",
+                "imgloc2":"imgs/hull_blue2.jpg"
+			},
+			{
+				"text": "Flats Blue",
+                "imgloc0": "imgs/flat_blue0.jpg",
+                "imgloc1": "imgs/flat_blue1.jpg",
+                "imgloc2": "imgs/flat_blue2.jpg",
+                "imgloc3": "imgs/flat_blue3.jpg"
+			},
+            {
+				"text": "Vineyard Navy",
+                "imgloc0": "imgs/vineyard_navy0.jpg",
+                "imgloc1": "imgs/vineyard_navy1.jpg",
+                "imgloc2": "imgs/vineyard_navy2.jpg",
+                "imgloc3": "imgs/vineyard_navy3.jpg"
+			},
+            {
+				"text": "Jetty Red",
+                "imgloc0": "imgs/jetty_red0.jpg",
+                "imgloc1": "imgs/jetty_red1.jpg",
+                "imgloc2": "imgs/jetty_red2.jpg",
+                "imgloc3": "imgs/jetty_red3.jpg"
+			},
+            {
+				"text": "Light Gray Heather",
+                "imgloc0": "imgs/light_gray_heather0.jpg",
+                "imgloc1": "imgs/light_gray_heather1.jpg",
+                "imgloc2":"imgs/light_gray_heather2.jpg"
+			}
+		]
+	}
+
