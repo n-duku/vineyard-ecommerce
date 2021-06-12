@@ -85,27 +85,12 @@ const generateHTML = cartContent =>{
                         </p>
                         <p><span class="bolden">Size: </span>${content.productSize}
                         </p>
-                        <p class="edit-area">
-                            <a href="">Edit</a> | <a href="">Move to Wishlist </a>| <a href="">Remove</a> 
+                        <p class="edit-area"><a href="">Remove</a> 
                         </p>
                     </div>
                 </div>
                 <div>
                         <div class="product-quantity-update">
-                            <div class="qnty-edit">
-                                <select id="ProductsNumb">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
-                                  </select>
-                            </div>
                             <div class="priceInfo">
                                 <span class="unitPrice">UNIT PRICE</span><br>
                                 <span class="unitPriceAmount">@ <span class="amountPrice"></span> <span class="currency">$</span>${content.productPrice}</span>
