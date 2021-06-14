@@ -2,6 +2,7 @@ let myCart = [];
 let discount = 0;
 let itemsQuantity = 0;
 let subTotal = 0;
+
 const applyingPromoCode = () =>{
     let passed = false;
     let inputValue = document.querySelector('div.promotion div input[type="text"]').value;
@@ -52,6 +53,8 @@ const getTotalItems = () => {
      document.querySelector('div.calculation > div.estimatedTotal').innerHTML = `$${subTotal}`;
  }
 
+
+
  getSubTotal();
 
 getTotalItems();
@@ -63,8 +66,22 @@ window.onload = () => {
         console.log("Empty Cart");
     }
     generateHTML(myCart);
+
+    
+
+    // clearCart();
         
 }
+
+const clearCart = ()=>{
+    localStorage.clear();
+    location.reload();
+}
+
+document.querySelector('#clearCarte').addEventListener("click",()=>{
+    clearCart();
+    console.log('Heel');
+ })
 
 const generateHTML = cartContent =>{
     const mainCartContent = document.querySelector('div.cartContents');
@@ -85,8 +102,7 @@ const generateHTML = cartContent =>{
                         </p>
                         <p><span class="bolden">Size: </span>${content.productSize}
                         </p>
-                        <p class="edit-area"><a href="">Remove</a> 
-                        </p>
+                        <p id="Edit-area">Remove </p>
                     </div>
                 </div>
                 <div>
@@ -108,6 +124,7 @@ const generateHTML = cartContent =>{
             </div>
             
 
+
         </div>
 
          </div>
@@ -120,16 +137,8 @@ const generateHTML = cartContent =>{
     
 }
 
-// const updateProductQuantity = (cartArrays) =>{
-//     let quantityArrays = cartArrays.map(x => x.productQuantity);
-//     let selectArrays = Array.from(document.querySelectorAll('#productsNumb'));
-//     console.log(selectArrays);
-//     for(let i in selectArrays){
-//         console.log(selectArrays[i])
-//         selectArrays[i].selectedIndex = 8; //quantityArrays[i];
-//         // console.log(quantityArrays[i]);
-//     }
-// }
 let first = document.querySelector('div.promotion div input[type="button"]');
 first.addEventListener('click', applyingPromoCode,false);
+
+
 
