@@ -173,9 +173,7 @@ main {
 div.color-picker > span.cl:nth-child(3){
   border-color: #002b5c;
 }
-/* .prod-details-wrap .color-picker .cl:active {
-  border-color: #002b5c;
-} */
+
 .prod-details-wrap .size-picker {
   margin-top: 2rem;
 }

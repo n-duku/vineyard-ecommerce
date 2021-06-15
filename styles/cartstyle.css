@@ -186,3 +186,11 @@ div.promotion input::placeholder{
     font-weight: 500;
     padding: 10px;
 }
+
+button > a:hover{
+ color: white;
+}
+
+button > a:visited{
+ color:rgb(234, 241, 239)
+}
